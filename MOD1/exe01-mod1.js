@@ -8,6 +8,7 @@ function dataFromObj(endereco){
         endereco.numero
         );
 }
+var x;
 
 var endereco = {
     rua: "Rua dos pinheiros",
@@ -16,4 +17,6 @@ var endereco = {
     cidade: "São Paulo",
     uf: "SP"
 }
+
+x =1;
 console.log(dataFromObj(endereco));
